@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>get response</title>
+	<style type="text/css">
+		input{
+			width:60%;
+			height: 40px;
+		}
+		#output{
+			width:100%;
+			height: 400px;}
+	</style>
+</head>
+<body>
+<form id="formId">
+	<input type="text" name="origin"><br>
+	<input type="text" name="destination"><br>
+	<button onclick="getText()">get text</button>
+</form>
+
+<div id="output"></div>
+
+<script type="text/javascript">
+
+	function getText(){
+		var text = document.getElementById('formId');
+		var origin= 'mandideep';
+		var desti = 'chetak bridge';
+		var link ='https://maps.googleapis.com/maps/api/directions/json?origin='+ origin +'&destination='+ desti +'&key=AIzaSyCqms7EP0PjAoV7ZxKg3PbIB2-d3EYpw2w' 
+		fetch(link)
+		.then((res) => res.json())
+		.then(function(data){
+			//document.getElementById('output').innerHTML = data.routes[0].legs[0].distance.text;
+			alert(data.routes[0].legs[0].distance.text);
+		});
+	}
+</script>
+</body>
+</html>

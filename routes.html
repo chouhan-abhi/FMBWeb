@@ -1,0 +1,64 @@
+<html>
+	<title>
+		FindMyBus
+	</title>
+	<head>
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">	
+		<script type="text/javascript" src="routesScript.js"></script>
+		<style type="text/css">
+			::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+			    color: #000000;
+			    opacity: 1; /* Firefox */
+			}
+
+			:-ms-input-placeholder { /* Internet Explorer 10-11 */
+			    color: #000000;
+			}
+
+			::-ms-input-placeholder { /* Microsoft Edge */
+			    color: #000000;
+			}
+		</style>
+	</head>
+	<body>
+		<header id="headerRoutes">
+			<a href="Home.html"><img src="backarrow.png" id="backToHome"></a>
+			<div id="formRoutes">
+			<form id="formRoute">
+				<input type="text" name="origin" id="inputRoutes1" placeholder="Starting point."><br>	
+				<input type="text" name="destination" id="inputRoutes2" placeholder="Destination."><br>
+			</form>	
+				<button id="submitRoutes" onclick="getText()"><b>Search</b></button>
+			</div>
+		</header>
+		<main id="mainRoutes">
+			<p>
+				<img src="bus.png" id="buslogo"><br>
+				<div id="busNo">
+				</div><br>
+				<div id="routeDetail">
+					<h3>No search made yet!</h3>
+				</div>	
+			</p>
+		</main>
+
+		<footer id="footerRoutes">
+			<p>
+				<div id="leftFooterRoutes">
+					<b>Total Time<br>
+					<div id='valueTime'>NA</div></b>
+				</div>
+
+				<div id="rightFooterRoutes">					
+					<b>Total Distance<br>
+					<div id='valueDistance'>NA</div></b>
+				</div>
+				
+			</p>
+		</footer>
+	</body>
+
+		
+</html>		

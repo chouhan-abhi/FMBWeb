@@ -1,0 +1,218 @@
+body {margin: 0%;
+	background-color: #eeeeee;
+}
+h1 {width: 50%;
+	float: left;
+	margin-top: -1px;
+}
+#headerHome {
+	margin: 0px 3% 0px 3%;
+	width:90%;
+	height:50px;
+	position: fixed;
+	z-index: 2;
+	top: 10px;
+	padding: 6px 2% 1% 2% ;
+	border-radius: 14px 14px;
+	background-color: #ffffff;
+	border: 1px solid #757575;
+}
+#routesIcon{
+	height:40px;
+	width: 40px;
+	float: right;
+	padding: 1%;
+}
+#busSearch {
+	background-color: #F5F5F5;
+	width: 80%;
+	padding:10px 0px 10px 4px; 
+	font-size: 5.5vw;
+	float: left;
+}
+#busSearch:hover {
+	background-color: #ffffff;
+}
+
+#foot{
+	z-index: 2;
+	height: 36px;
+	width: 90%;
+	margin: 0% 5% 0% 5%;
+	position: absolute;
+	bottom: 20px;
+	font-size: 4.2vw;
+}
+#image{
+	height: 16px;
+	width: 16px;
+}
+#ackBlack{
+	display: none;
+	background-color: #ffffff;
+	margin-right: 6px;
+	border-radius: 5px;	
+	padding: 2% 3%;
+	float:left;	
+	border: 1px solid #000000;
+}
+#ackBlue{
+	display: none;
+	background-color: #ffffff;
+	margin-right: 6px;
+	border-radius: 5px;
+	float:left;	
+	padding: 2% 3%;
+	border: 1px solid #757575;
+}
+#ackRed{
+	display: none;
+	padding: 2% 3%;
+	background-color: #ffffff;
+	margin-right: 6px;
+	border-radius: 5px;
+	float:left;
+	border: 1px solid #757575;
+}
+
+main {
+	position: fixed;
+	width: 100%;
+	height:100%;}
+
+#searchBar{
+	width: 94%;	
+	left:3%;
+	right:3%;
+	top: 80px; 
+	background-color: #eeeeee;
+	position: absolute;;
+	display: none;
+	font-size: 6vw;
+	overflow-y: auto;
+	border-radius: 10px;
+}
+#tr4{
+	background-color: #ffffff;
+	height: 30px;
+	width:94%;
+	text-align: center;
+	margin:4px 0px 4px 0px;
+	padding:3%;
+}
+#Bus303{	
+	background-color: #ffffff;
+	height: 30px;
+	width:94%;
+	text-align: center;
+	margin:4px 0px 4px 0px;
+	padding:3%;}
+#Bus306{
+	background-color: #ffffff;
+	height: 30px;
+	width:94%;
+	text-align: center;
+	margin:4px 0px 4px 0px;
+	padding:3%;;
+}
+
+#headerRoutes{
+	height:140px;
+	width: 100%;
+	background-color: #E0E0E0;
+}
+#mainRoutes{
+	width: 96%;
+	overflow-y: auto;
+	padding:2%; 
+}
+#footerRoutes{	
+	color:#424242;
+	position: absolute;
+	bottom: 0px;
+	height:100px;
+	width: 96%;
+	padding: 2%;
+	background-color: #E0E0E0;
+	font-size: 5vw;
+}
+#backToHome{
+	height: 30px;
+	width: 30px;
+	float:left;
+	margin: 4%;
+}
+#formRoutes{
+	height: 100px;
+	width: 74%;
+	padding:3%;
+	float:right;	
+}
+#inputRoutes1{
+	height: 40px;
+	width: 86%;
+	margin: 0px 2% 3% 2%;
+	padding:2%;
+	border-radius: 10px;
+	background-color: #eeeeee;
+	border-style: none;
+	font-size: 4.4vw;
+}
+#inputRoutes2{
+	height: 40px;
+	width: 86%;
+	margin: 0px 2% 3% 2%;
+	padding:2%;
+	border-radius: 10px;
+	background-color: #eeeeee;
+	border-style: none;
+	font-size: 4.4vw;
+}
+#submitRoutes{
+	height: 50px;
+	width: 90px;
+	padding: 2%;
+	font-size: 4.8vw;
+	margin: 0% 0% 0% 22%;
+	border-radius: 50px;
+	border-style: none;
+	background-color: #757575;
+	color: #ffffff;
+}
+#leftFooterRoutes{
+	height: 100%;
+	width: 43%;
+	padding-left: 1%;
+	float: left;
+}
+#rightFooterRoutes{
+	height: 100%;
+	width: 43%;
+	padding-left: 1%;
+	float: right;
+}
+#valueDistance{
+	color:#000000;
+	font-size: 6vw;
+}
+#valueTime{
+	color:#000000;
+	font-size: 6vw;
+}
+#busNo{
+	margin-top: 40px;
+	text-align: center;
+	font-size: 12vw;
+}
+#routeDetail{
+	text-align: center;
+	font-size: 5vw;
+}
+#buslogo{
+	height: 200px;
+	width:200px;
+	margin: 40px 0px 0px 25%; 
+	align-content: center;
+}
+
+
